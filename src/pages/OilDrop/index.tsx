@@ -244,7 +244,7 @@ function OilDrop(){
         var tdown = 0;
         const tupk = [];
         const tdownk= [];
-        const U = 1.6*parseFloat(values['U']);
+        const U = 1.5*parseFloat(values['U']);
         for(let i=1;i<=8;i++){
             tup += parseFloat(values['tupk'+i]);
             tupk.push(parseFloat(values['tupk'+i]));
