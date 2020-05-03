@@ -1,14 +1,3 @@
-// import React, { useState } from 'react';
-
-// function Calc1051() {
-//     return (
-//       <div>
-//         1051
-//       </div>
-//     );
-// }
-// export default Calc1051;
-
 import React, { useState } from 'react';
 import { Form, Row, Col, Input, Button, Table, Tag } from 'antd';
 import { DownOutlined, UpOutlined } from '@ant-design/icons';
