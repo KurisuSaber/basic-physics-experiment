@@ -147,7 +147,7 @@ function OilDrop(){
         name3: '相对误差',
         value1: q_,
         value2: ecal_,
-        value3: error_
+        value3: error_+'%'
       },
       {
         key: '3',
@@ -160,7 +160,7 @@ function OilDrop(){
         key: '4',
         name1: '油滴电量相对不确定度',
         name2: '元电荷电量不确定度',
-        value1: u_q_relative,
+        value1: u_q_relative+'%',
         value2: e_q_
       },
     ];
@@ -180,7 +180,7 @@ function OilDrop(){
           name3: '相对误差',
           value1: q__,
           value2: ecal__,
-          value3: error__
+          value3: error__+'%'
         },
         {
           key: '3',
@@ -193,7 +193,7 @@ function OilDrop(){
           key: '4',
           name1: '油滴电量相对不确定度',
           name2: '元电荷电量不确定度',
-          value1: u_q_relative_,
+          value1: u_q_relative_+'%',
           value2: e_q__
         },
       ];
@@ -306,7 +306,7 @@ function OilDrop(){
         <Table columns={columns} dataSource={data1} pagination={false}/>
         </div>
         <div className='title'>
-            动态法测不确定度
+            动态法测基本电荷
         </div>
         <div>
         <Form
