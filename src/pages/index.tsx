@@ -114,7 +114,7 @@ export default () => {
             </Menu>
         </Sider>
         <Layout className="site-layout" style={{ marginLeft: 200 }}>
-      <Header className="site-layout-background" style={{ textAlign: "center", fontSize: '16px'}}>
+      <Header className="site-layout-background" style={{ textAlign: "center", fontSize: '20px'}}>
                 {renderTitle()}
       </Header>
       <Content style={{ margin: '24px 16px 0', overflow: 'initial'}}>

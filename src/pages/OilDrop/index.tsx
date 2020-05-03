@@ -204,7 +204,7 @@ function OilDrop(){
         var square = function(x: number):number { return x*x;};　　//数组中每个元素求它的平方
         var mean = data.reduce(sum)/data.length;
         var deviations = data.map(function(x: number){return x-mean;});
-        var stddev = Math.sqrt(deviations.map(square).reduce(sum)/(data.length-1));
+        var stddev = Math.sqrt(deviations.map(square).reduce(sum)/(data.length));
         
         return stddev;
     }

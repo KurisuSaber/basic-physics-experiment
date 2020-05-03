@@ -21,7 +21,7 @@ function AboutUs() {
                     style={{ width: 240 }}
                     cover={<img alt="example" src="https://pics.images.ac.cn/image/5eac3c827be95.html" />}
                 >
-                    <Meta title="HenryTian" description="前后端技术支持" />
+                    <Meta title="HenryTian" description="网站搭建 前后端技术支持" />
                 </Card>
             </span>
             <span className='about-us-content'>
